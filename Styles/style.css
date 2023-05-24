@@ -89,7 +89,7 @@ button{
 
 .reg-container{
     display: grid;
-    grid-template-columns: 50% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(10, min-content) 1fr;
 }
 
@@ -161,24 +161,183 @@ button{
     border-radius: 10%;
 }
 
-#reg-image1{
+.reg-img-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(3 min-content);
     grid-column-start: 2;
-    grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 10;
+}
+
+#reg-image1{
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 #reg-image2{
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-row-start: 2;
+
 }
 
 #reg-image3{
-    grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-row-start: 3;
+
 }
 /*register*/
+
+
+/*The Couple*/
+.cou-container{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: linear-gradient(to right,#a58936, #f2f3ae);
+}
+/*The Couple*/
+
+
+/*Mone*/
+.mon-container{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(3 min-content);
+}
+
+.mon-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mon-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.mon-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.mon-titlep{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#mon-profile{
+    border-radius: 50%;
+}
+
+#mon-div-image1{
+    grid-column-start: 2;
+}
+
+#mon-div-image2{
+    grid-column-start: 1;
+}
+
+#mon-div-image3{
+    grid-column-start: 3;
+}
+
+.mon-storyp{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Mone*/
+
+
+/*FJ*/
+
+.fj-container{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(3 min-content);
+}
+
+.fj-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fj-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.fj-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.fj-titlep{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#fj-profile{
+    border-radius: 50%;
+}
+
+#fj-div-image1{
+    grid-column-start: 2;
+}
+
+#fj-div-image2{
+    grid-column-start: 1;
+}
+
+#fj-div-image3{
+    grid-column-start: 3;
+}
+
+.fj-storyp{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*FJ*/
+
+/*Our Story*/
+
+.str-container{
+    display: grid;
+    grid-template-columns: 16% 34% 34% 16%;
+    margin-top: 5%;
+}
+
+.str-image{
+    grid-column-start: 2;
+    background: transparent;
+}
+
+.str-story{
+    margin-top: 10%;
+    grid-column-start: 3;
+    height: 85%;
+    background-color: #f2f3ae;
+    display: grid;
+    grid-template-rows: repeat(3 min-content);
+}
+
+
+/*Our Story*/
