@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mentz Wedding</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="backend.js"></script>
-    <script src="tracking.js"></script>
   </head>
 
   <body>
@@ -30,15 +29,19 @@
 
     <!-- This is the coding for the navigation menu -->
     <section class="container2">
-      <nav class="nav-bar">
-        <ul class="menu-grid">
+      <nav class="nav-bar" id="navbar">
+        <nav class="menu-grid" id="menugrid">
           <li><a href="">Home</a></li>
-          <li><a href="#getToKnowUsHeading">Get to know us</a></li>
-          <li><a href="#join-us-slogan">Our Story</a></li>
-          <li><a href="#main-background">RSVP</a></li>
-          <li><a href="#track-container">Media Gallery</a></li>
-          <li><a href="">Welcome</a></li>
-        </ul>
+          <li>
+            <a href="#countdown-container">Our Story</a>
+          </li>
+          <li>
+            <a href="#sheSaidYes">Information</a>
+          </li>
+          <li>
+            <a href="#gallery-heading-container">Media Gallery</a>
+          </li>
+        </nav>
       </nav>
     </section>
 
@@ -48,9 +51,9 @@
         <div class="reg-items-container">
           <div class="reg-title reg">
             <h1 class="reg-titlep">PLEASE JOIN US</h1>
-            <br />
+
             <h2 class="second-heading-MentzToBe">
-              for our <b style="color: white; font-size: 20pt;">#MentzTobe</b> celebration on
+              for our #MentzTobe celebration <br />on
             </h2>
             <br />
           </div>
@@ -65,7 +68,7 @@
             <br />
           </div>
           <div class="reg-button reg">
-            <button id="reg-buttonb">
+            <button onclick="goToAnotherPage()" id="reg-buttonb">
               RSVP Here
               <span class="spanbutton first"></span>
               <span class="spanbutton second"></span>
@@ -77,73 +80,70 @@
       </div>
     </div>
 
+    <!--Countdown-->
     <section>
       <section id="countdown-container">
-        <div id="countdown-grid">
-          <div id="countdown-days" class="countdown-columns"></div>
-          <div id="countdown-hours" class="countdown-columns"></div>
-          <div id="countdown-minutes" class="countdown-columns"></div>
-          <div id="countdown-seconds" class="countdown-columns"></div>
+        <div class="countdown-centerbox">
+          <div id="countdown-grid">
+            <div id="countdown-days" class="countdown-columns"></div>
+            <div id="countdown-hours" class="countdown-columns"></div>
+            <div id="countdown-minutes" class="countdown-columns"></div>
+            <div id="countdown-seconds" class="countdown-columns"></div>
+          </div>
         </div>
       </section>
     </section>
+    <!--Countdown-->
 
+    <!--Our Story-->
     <section id="our-story-container">
       <img id="story-picture" src="Pictures/pic 5(final).jpg" />
       <div id="our-story-section">
         <h1 id="our-story-heading">How We Met</h1>
         <p id="our-story-paragraph">
-          It was a summer day filled with love and celebration. As I entered the
-          wedding venue, our eyes locked from across the room. There she stood,
-          radiant and captivating. Our connection was instant, as if the
-          universe had orchestrated our meeting. Throughout the night, we
-          laughed, danced, and shared stories, realizing we were kindred spirits
-          destined to be together.
+          If you would ask us where our relationship started, we would have to
+          give you multiple answers. But all we can say is that a few church
+          encounters and a dream team partnership in a horses and chariots
+          ice-breaker was the most memorable of them all.
           <br />
           <br />
-          Days turned into weeks, and our love deepened. We embarked on
-          adventures, discovering the world hand in hand. Our hearts were filled
-          with joy and our souls intertwined. Together, we faced life's
-          challenges, supporting and uplifting each other. Our bond grew
-          stronger, and we knew we had found our forever.
+          The question all of you may be asking: "Was it love at first sight?"
+          The answer is simple: no. After some convincing from a few friends,
+          Frans-Josef built up the courage to ask Moné on a coffee date. One
+          date became two, and two became three, and the rest we can call
+          history. Both confessed their feelings for each other, with Moné
+          obviously going first.
           <br />
           <br />
-          Now, on our wedding day, we stand before our loved ones, ready to
-          exchange vows and begin a new chapter. Our love story is a testament
-          to fate and the beauty of finding your soulmate. As we say "I do," we
-          embrace the future with open hearts, knowing that our love will guide
-          us through a lifetime of happiness and cherished memories. It was a
-          summer day filled with love and celebration. As I entered the wedding
-          venue, our eyes locked from across the room. There she stood, radiant
-          and captivating. Our connection was instant, as if the universe had
-          orchestrated our meeting. Throughout the night, we laughed, danced,
-          and shared stories, realizing we were kindred spirits destined to be
-          together.
+          After a short while they started dating while their love for each
+          other grew day by day. This was all due to the small adventures they
+          both endured. And we confess some "study breaks" where extended a few
+          times to go and climb on building G3's rooftop and eat some ice cream.
           <br />
           <br />
-          Days turned into weeks, and our love deepened. We embarked on
-          adventures, discovering the world hand in hand. Our hearts were filled
-          with joy and our souls intertwined. Together, we faced life's
-          challenges, supporting and uplifting each other. Our bond grew
-          stronger, and we knew we had found our forever.
+          Days became weeks, and weeks became months. A few calls and
+          arrangements were made and on the 13th of May, Frans-Josef decided to
+          pop the big question. If you have not noticed the ring on Moné's
+          finger and the wedding invitations, she said: "Yesss!".
           <br />
           <br />
-          Now, on our wedding day, we stand before our loved ones, ready to
-          exchange vows and begin a new chapter. Our love story is a testament
-          to fate and the beauty of finding your soulmate. As we say "I do," we
-          embrace the future with open hearts, knowing that our love will guide
-          us through a lifetime of happiness and cherished memories.
+          All and all we are so excited about this new chapter in our lives and
+          happy to be able to share one of our special moments with all of you.
         </p>
       </div>
     </section>
+    <!--Our Story-->
 
+    <!--She said Yes-->
     <section id="sheSaidYes-Container">
       <div id="sheSaidYes-slogan">
         <h1 id="sheSaidYes">She Said Yes!</h1>
         <h2 id="dateOfAnswer">NOVEMBER 2022</h2>
       </div>
     </section>
+    <!--She said Yes-->
 
+    <!--Information Text-->
     <section class="information">
       <h1 class="information-text1">Venue</h1>
       <div class="information-text2">
@@ -190,8 +190,10 @@
         </div>
       </div>
     </section>
+    <!--Information Text-->
 
-    <section class="gallery-heading-container">
+    <!--Media Gallery-->
+    <section id="gallery-heading-container">
       <div class="gallery-heading">
         <h1 class="gallery-heading-text">Gallery</h1>
       </div>
@@ -289,22 +291,15 @@
         </div>
       </div>
     </section>
-
-    <section class="gallery-heading-container">
-      <div class="gallery-heading">
-        <h1 class="gallery-heading-text">RSVP</h1>
-      </div>
-    </section>
-
-    <section class="rsvp-main-container">
-      <div class="rsvp-secondary-container">
-        <img src="Pictures/rsvp-left-picture.jpg" class="rsvp-couple-image" />
-        <div class="rsvp-background-image">
-          <h2 class="qr-code-message">Please scan the qr code below:</h2>
-          <img src="Pictures/qr-code.png" class="qr-code-image" />
-          <h2>Or click on this link:</h2>
-        </div>
-      </div>
-    </section>
+    <!--Media Gallery-->
   </body>
+
+  <footer>
+    <p>
+      Any Questions? <br />
+      Contact us 📞<br />
+      F-J: 083 465 7364<br />
+      Moné: 089 423 1194
+    </p>
+  </footer>
 </html>

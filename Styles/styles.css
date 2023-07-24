@@ -177,7 +177,7 @@ html {
 }
 
 #welcome-section {
-  background-image: url(Pictures/srhbzhzdhxfh.jpg);
+  background-image: url(../Pictures/srhbzhzdhxfh.jpg);
   background-size: cover;
   height: 700px;
   text-align: center;
@@ -210,7 +210,7 @@ html {
   font-size: 20px;
 }
 
-#reg-buttonb {
+.reg-buttonb {
   border: none;
   padding: 10px 20px;
   font-size: 24px;
@@ -223,11 +223,20 @@ html {
   transition: all 0.7s;
   overflow: hidden;
   border-radius: 100px;
-  margin-top: 2%;
+  margin-top: 2%;  
 }
 
-#reg-buttonb:hover {
-  color: #000;
+#reg-buttona{
+  text-decoration: none; 
+  color: goldenrod; 
+}
+
+#reg-buttona :hover{
+ color: black; 
+}
+
+.reg-buttonb:hover {
+  color: black;
 }
 
 .spanbutton {
@@ -235,7 +244,7 @@ html {
   z-index: -1;
 }
 
-#reg-buttonb .first {
+.reg-buttonb .first {
   content: "";
   position: absolute;
   right: 100%;
@@ -245,12 +254,12 @@ html {
   background: goldenrod;
 }
 
-#reg-buttonb:hover .first {
+.reg-buttonb:hover .first {
   top: 0;
   right: 0;
 }
 
-#reg-buttonb .second {
+.reg-buttonb .second {
   content: "";
   position: absolute;
   left: 25%;
